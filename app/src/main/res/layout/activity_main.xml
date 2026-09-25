@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8EA"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="24dp">
+
+            <!-- LOGO -->
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:src="@drawable/logo_de_pizzaria_com_chef_italiano"
+                android:scaleType="fitCenter"
+                android:contentDescription="Logo da Pizzaria do Zé" />
+
+            <!-- TÍTULO -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bem-vindo à Pizzaria do Zé!"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:textColor="#B71C1C"
+                android:gravity="center"
+                android:layout_marginTop="5dp" />
+
+            <!-- DESCRIÇÃO -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pizzas artesanais, feitas com ingredientes selecionados e feitos pelo melhor chefe (fabricinho)!"
+                android:textSize="18sp"
+                android:textColor="#263238"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginTop="10dp" />
+
+            <!-- BOTÃO CARDÁPIO -->
+
+            <Button
+                android:id="@+id/btnCardapio"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="🍕  VER CARDÁPIO"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#C62828"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
