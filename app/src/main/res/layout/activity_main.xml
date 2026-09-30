@@ -37,7 +37,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bem-vindo à Pizzaria do Zé!"
+                android:text="Bem-vindo à Pizzaria da dri dri!"
                 android:textSize="27sp"
                 android:textStyle="bold"
                 android:textColor="#B71C1C"
@@ -49,7 +49,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pizzas artesanais, feitas com ingredientes selecionados e feitos pelo melhor chefe (fabricinho)!"
+                android:text="Pizzas artesanais, feitas com ingredientes selecionados e feitos pelo melhor chefe (adriana)!"
                 android:textSize="18sp"
                 android:textColor="#263238"
                 android:gravity="center"
